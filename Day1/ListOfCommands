@@ -1,3 +1,6 @@
  sudo apt install python3-pip              // this will install the PIP3
  pip3 install flask                        // this will install flask
  python3 app.py                            // this will start the app.py program
+ 
+ 
+ docker run -d --name firstappcont -p 8080:8080 pythonappimage   // star the container in background mode with port binding with hostport:containerport
